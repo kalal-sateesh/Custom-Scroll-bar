@@ -10,6 +10,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 .custom-scrollbar {
   width: 50%;
@@ -25,4 +26,8 @@ nav {
 .custom-scrollbar ul li{
     margin-top: 20px;
 }
-
+@media screen and (max-width:500px) {
+  .custom-scrollbar {
+    width: 90%;
+  }
+}
